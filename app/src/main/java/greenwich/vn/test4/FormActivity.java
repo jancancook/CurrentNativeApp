@@ -102,27 +102,27 @@ public class FormActivity extends AppCompatActivity {
             }
             if(TextUtils.isEmpty(nameReporter)){
                 isValid = false;
-                errorNameReporter += "* The field can't be empty. Please enter name reporter!*";
+                errorNameReporter += "* You did not enter the Name. Please enter Name!!!";
             }
             if(TextUtils.isEmpty(address)){
                 isValid = false;
-                errorAddress += "* The field can't be empty. Please enter address!*";
+                errorAddress += "* You did not enter the Address. Please enter Address!!!";
             }
-                        if(TextUtils.isEmpty(type)){
+            if(TextUtils.isEmpty(type)){
                 isValid = false;
-                errorSelectType += "* The field must be select property type!*";
+                errorSelectType += "* You did not enter the Type. Please enter Type!!!*";
             }
             if(TextUtils.isEmpty(furniture)){
                 isValid = false;
-                errorSelectFurniture += "* The field must be select property furniture!*";
+                errorSelectFurniture += "* You did not enter the Furniture. Please enter Furniture!!!";
             }
             if(TextUtils.isEmpty(numBed)){
                 isValid = false;
-                errorNumBed += "* The field can't be empty. Please enter No.Bedroom!*";
+                errorNumBed += "* You did not enter the Number of Bedroom. Please enter Number of Bedroom!!!";
             }
             if(TextUtils.isEmpty(price)){
                 isValid = false;
-                errorPrice += "* The field can't be empty. Please enter your price!*";
+                errorPrice += "* You did not enter the Price. Please enter Price!!!";
             }
             if (isValid){
                 Bundle bundle = new Bundle();
